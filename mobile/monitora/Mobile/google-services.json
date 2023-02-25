@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "922333491815",
+    "firebase_url": "https://pushdemo-228004.firebaseio.com",
+    "project_id": "pushdemo-228004",
+    "storage_bucket": "pushdemo-228004.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922333491815:android:eff32e38f078b32041dac2",
+        "android_client_info": {
+          "package_name": "br.com.rtiinformatica.PI7"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922333491815-jo1oq3polnr0npvfa2ivomlep2gkhju5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACNfHtiJlI3lgzDRkWIgFJ8IRymM-wSrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922333491815-jo1oq3polnr0npvfa2ivomlep2gkhju5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922333491815:android:fff5730603842c2b",
+        "android_client_info": {
+          "package_name": "com.rti.ecclocation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922333491815-jo1oq3polnr0npvfa2ivomlep2gkhju5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACNfHtiJlI3lgzDRkWIgFJ8IRymM-wSrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922333491815-jo1oq3polnr0npvfa2ivomlep2gkhju5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922333491815:android:27536f5386f51915",
+        "android_client_info": {
+          "package_name": "com.rtiinformatica.Push"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922333491815-jo1oq3polnr0npvfa2ivomlep2gkhju5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACNfHtiJlI3lgzDRkWIgFJ8IRymM-wSrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922333491815-jo1oq3polnr0npvfa2ivomlep2gkhju5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922333491815:android:f4ffaf228f7d5c83",
+        "android_client_info": {
+          "package_name": "com.rtiinformatica.appVittia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922333491815-jo1oq3polnr0npvfa2ivomlep2gkhju5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACNfHtiJlI3lgzDRkWIgFJ8IRymM-wSrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922333491815-jo1oq3polnr0npvfa2ivomlep2gkhju5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/05/02 03:10:44.000.607,=C:\Users\Robson\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/02 03:11:10.000.149,C:\Users\Robson\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\univesp\PI II\Jogos\Delphi\Meus\Modelo 02\Unit1.fmx</Transaction>
+    <Transaction>2022/05/02 03:11:10.000.149,C:\Users\Robson\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\univesp\PI II\Jogos\Delphi\Meus\Modelo 02\Unit1.pas</Transaction>
+    <Transaction>2022/05/02 03:11:59.000.529,C:\Users\Robson\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\univesp\PI II\Jogos\Delphi\Meus\Modelo 02\Seteerros.dproj</Transaction>
+    <Transaction>2022/05/02 03:13:04.000.267,=C:\univesp\PI II\Jogos\Delphi\Meus\Modelo 02\uInicial.pas</Transaction>
+    <Transaction>2022/05/02 03:13:21.000.863,=C:\univesp\PI II\Jogos\Delphi\Meus\Modelo 02\uPrincipal.pas</Transaction>
+    <Transaction>2022/05/02 03:13:31.000.254,=C:\univesp\PI II\Jogos\Delphi\Meus\Modelo 02\uTela02.pas</Transaction>
+    <Transaction>2022/05/02 03:13:41.000.332,C:\univesp\PI II\Jogos\Delphi\Meus\Modelo 02\Unit1.pas=</Transaction>
+    <Transaction>2022/05/02 03:14:36.000.258,=C:\univesp\PI II\Jogos\Delphi\Meus\Modelo 02\classes\Globais.pas</Transaction>
+    <Transaction>2022/05/02 03:14:36.000.309,=C:\univesp\PI II\Jogos\Delphi\Meus\Modelo 02\classes\uPermissions.pas</Transaction>
+    <Transaction>2022/05/05 17:43:49.000.777,=C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\Unit2.pas</Transaction>
+    <Transaction>2022/05/05 17:45:41.000.227,C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\Unit2.fmx=C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\uEscolhaTelas.fmx</Transaction>
+    <Transaction>2022/05/05 17:45:41.000.227,C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\Unit2.pas=C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\uEscolhaTelas.pas</Transaction>
+    <Transaction>2022/05/05 18:01:56.000.199,C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\uPrincipal.pas=C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\uTelaJogo01.pas</Transaction>
+    <Transaction>2022/05/05 18:01:56.000.199,C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\uPrincipal.fmx=C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\uTelaJogo01.fmx</Transaction>
+    <Transaction>2022/05/05 21:33:54.000.936,=C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\audios\fundo.mp3</Transaction>
+    <Transaction>2022/05/05 21:50:54.000.214,=C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\audios\acerto.mp3</Transaction>
+    <Transaction>2022/05/05 21:51:09.000.176,=C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\audios\erro.mp3</Transaction>
+    <Transaction>2022/05/05 21:51:29.000.541,=C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\audios\aplausos.mp3</Transaction>
+    <Transaction>2022/05/06 00:46:25.000.516,C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\audios\fundo.mp3=</Transaction>
+    <Transaction>2022/05/06 00:46:33.000.171,C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\audios\erro.mp3=</Transaction>
+    <Transaction>2022/05/06 00:46:37.000.878,C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\audios\aplausos.mp3=</Transaction>
+    <Transaction>2022/05/06 00:46:41.000.769,C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\audios\acerto.mp3=</Transaction>
+    <Transaction>2022/05/06 00:46:52.000.729,=C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\audios\erro.mp3</Transaction>
+    <Transaction>2022/05/06 00:46:52.000.688,=C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\audios\aplausos.mp3</Transaction>
+    <Transaction>2022/05/06 00:46:52.000.636,=C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\audios\acerto.mp3</Transaction>
+    <Transaction>2022/05/06 00:46:53.000.209,=C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\audios\fundo.mp3</Transaction>
+    <Transaction>2022/05/06 00:59:16.000.946,C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\audios\fundo.mp3=</Transaction>
+    <Transaction>2022/05/06 00:59:35.000.737,=C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\audios\fundo.mp3</Transaction>
+    <Transaction>2022/05/06 01:48:55.532,C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\audios\fundo.mp3=</Transaction>
+    <Transaction>2022/05/06 01:49:04.024,C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\audios\acerto.mp3=</Transaction>
+    <Transaction>2022/05/06 01:49:07.363,C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\audios\aplausos.mp3=</Transaction>
+    <Transaction>2022/05/06 01:49:16.867,C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\audios\erro.mp3=</Transaction>
+    <Transaction>2022/05/06 01:59:05.326,=C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\audios\acerto.mp3</Transaction>
+    <Transaction>2022/05/06 01:59:25.831,=C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\audios\aplausos.mp3</Transaction>
+    <Transaction>2022/05/06 01:59:48.948,=C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\audios\erro.mp3</Transaction>
+    <Transaction>2022/05/06 02:00:03.356,=C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\audios\fundo.mp3</Transaction>
+    <Transaction>2022/05/06 02:08:45.173,C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\audios\fundo.mp3=</Transaction>
+    <Transaction>2022/05/06 02:09:19.369,=C:\univesp\PI II\Jogos\Delphi\Meus\Teste 01\audios\trilha.mp3</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="" Android64="RQCRA01Z8ND"/>
+	</ActiveMobileDevice>
+</BorlandProject>

@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{AE8C567E-7D59-4E30-B489-85730C572D30}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Mobile\monitora.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Server\ServiceServer.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="monitora">
+        <MSBuild Projects="Mobile\monitora.dproj"/>
+    </Target>
+    <Target Name="monitora:Clean">
+        <MSBuild Projects="Mobile\monitora.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="monitora:Make">
+        <MSBuild Projects="Mobile\monitora.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ServiceServer">
+        <MSBuild Projects="Server\ServiceServer.dproj"/>
+    </Target>
+    <Target Name="ServiceServer:Clean">
+        <MSBuild Projects="Server\ServiceServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ServiceServer:Make">
+        <MSBuild Projects="Server\ServiceServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="monitora;ServiceServer"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="monitora:Clean;ServiceServer:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="monitora:Make;ServiceServer:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
