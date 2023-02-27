@@ -445,7 +445,8 @@ end;
 
 procedure TFrmPrincipal.rectCam01Tap(Sender: TObject; const Point: TPointF);
 begin
-    WebBrowser1.URL := 'http://localhost:8083/cameras/cam01.png';
+//  WebBrowser1.URL := 'http://rtiinformatica.dev.br:8083/univesp/pi7/videos/camera01.mp4';
+    WebBrowser1.URL := 'http://rtiinformatica.dev.br:8083/univesp/pi7/cameras/cam01.png';
     TabControl.ActiveTab := tabCamera;
 
 
@@ -453,21 +454,25 @@ end;
 
 procedure TFrmPrincipal.rectCam02Tap(Sender: TObject; const Point: TPointF);
 begin
-    WebBrowser1.URL := 'http://localhost:8083/univesp/pi7/cameras/cam02.png';
+//    WebBrowser1.URL := 'http://rtiinformatica.dev.br:8083/univesp/pi7/videos/camera01.mp4';
+//    WebBrowser1.URL := 'https://www.youtube.com/embed/tpXPYqpTSH0';
+    WebBrowser1.URL := 'http://rtiinformatica.dev.br:8083/univesp/pi7/cameras/cam02.png';
     TabControl.ActiveTab := tabCamera;
 
 end;
 
 procedure TFrmPrincipal.rectCam03Tap(Sender: TObject; const Point: TPointF);
 begin
-    WebBrowser1.URL := 'http://localhost:8083/univesp/pi7/cameras/cam03.png';
+//    WebBrowser1.URL := 'http://rtiinformatica.dev.br:8083/univesp/pi7/videos/camera03.mp4';
+    WebBrowser1.URL := 'http://rtiinformatica.dev.br:8083/univesp/pi7/cameras/cam03.png';
     TabControl.ActiveTab := tabCamera;
 
 end;
 
 procedure TFrmPrincipal.rectCam04Tap(Sender: TObject; const Point: TPointF);
 begin
-    WebBrowser1.URL := 'http://localhost:8083/univesp/pi7/cameras/cam04.png';
+//    WebBrowser1.URL := 'http://rtiinformatica.dev.br:8083/univesp/pi7/videos/camera04.mp4';
+    WebBrowser1.URL := 'http://rtiinformatica.dev.br:8083/univesp/pi7/cameras/cam04.png';
     TabControl.ActiveTab := tabCamera;
 
 end;

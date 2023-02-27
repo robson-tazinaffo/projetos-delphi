@@ -15,6 +15,6 @@
   </Transactions>
 	<ActiveMobileDevice>
 		<PMacMini iOSSimulator="iPhone5"/>
-		<NoProfile Android="RX2N9008K7B" iOSSimulator="iPhone5" Android64="RX2N9008K7B"/>
+		<NoProfile Android="" iOSSimulator="iPhone5" Android64=""/>
 	</ActiveMobileDevice>
 </BorlandProject>

@@ -251,11 +251,8 @@ procedure TRestDWForm.RESTDWServiceNotification1ReceiveMessage(
 var
     vMessage: String;
 begin
-// memoReq.Lines.Add(Format('Alerta: %s, Message %s', [TRESTDwSession(Sender).Connection,
-//                                                  Value]));
  memoReq.Lines.Add(Value);
-// vMessage := Value;
- vMessage := 'Teste Notificação PI7';
+ vMessage := 'Teste Notificação App Monitoramento';
  RESTDWServiceNotification1.BroadcastMessage(vMessage);
 
 end;

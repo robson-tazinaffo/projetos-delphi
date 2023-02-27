@@ -1,0 +1,21 @@
+update dados_db..clientes_tb set cidade_cli = null where rtrim(cidade_cli) = ''
+update dados_db..clientes_tb set cidade_cli = 'SAO JOAQUIM DA BARRA' where rtrim(cidade_cli) = 'SOAJOAQUIM DA BARRA'
+update dados_db..clientes_tb set cidade_cli = 'SAO JOAQUIM DA BARRA' where rtrim(cidade_cli) = 'S. JOAQUIM DA BARRA'
+update dados_db..clientes_tb set cidade_cli = 'SAO JOAQUIM DA BARRA' where rtrim(cidade_cli) = 'SAO  JOAQUIM DA BARRA'
+update dados_db..clientes_tb set cidade_cli = 'SAO JOAQUIM DA BARRA' where rtrim(cidade_cli) = 'SAO JOAQUM DA BARRA'
+update dados_db..clientes_tb set cidade_cli = 'SAO JOAQUIM DA BARRA' where rtrim(cidade_cli) = 'SOAJOAQUIM DA BARRA'
+update dados_db..clientes_tb set cidade_cli = 'SAO JOAQUIM DA BARRA' where rtrim(cidade_cli) = 'SAO JOAQUIM DA BARRA'
+
+
+update dados_db..clientes_tb set codigo_cid = cid.codigo_cid
+from dados_db..clientes_tb cli
+LEFT OUTER  join dados_db..cidades_tb cid on (cli.cidade_cli = cid.Nome_cid)
+
+--Verifica quais ainda precisa acertar
+select cidade_cli, count(cidade_cli)
+from dados_db..clientes_tb 
+where codigo_cid is null
+group by cidade_cli
+
+
+

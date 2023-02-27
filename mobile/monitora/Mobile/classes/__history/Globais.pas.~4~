@@ -62,7 +62,7 @@ const
 
     C_EXP_CEP       = '\d{2}.\d{3}-\d{3}'; // Com ponto
 
-    C_URL             = 'http://localhost:8083/';
+    C_URL             = 'http://rtiinformatica.dev.br:8083/';
 
 
 implementation

@@ -21,7 +21,7 @@
 <img align="center" alt="GitHub" height="70" width="120" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
 <img align="center" alt="Delphi" height="70" width="80" src="https://dtffvb2501i0o.cloudfront.net/images/logos/logo-page/delphi-logo-1024.png"/> 
 <img align="center" alt="Firebird" height="70" width="80" src="https://firebirdsql.org/file/about/firebird-logo-48.png" /> 
-​              
+
 
 
 ## Aplicativos
