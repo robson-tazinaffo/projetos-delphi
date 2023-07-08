@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/12/26 19:58:10.000.858,=C:\Users\Robson\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/02/26 22:25:27.000.767,=C:\Users\Robson\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/03/11 03:24:16.000.450,=C:\Users\Robson\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/05/12 17:28:42.000.723,=C:\Users\Robson\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/20 16:18:22.000.325,=C:\Users\Robson\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/20 16:18:54.000.601,E:\Programas\Delphi\Fontes\Baixada\Clube\Recibo\Unit1.pas=C:\Users\Robson\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/20 16:18:54.000.601,E:\Programas\Delphi\Fontes\Baixada\Clube\Recibo\Unit1.dfm=C:\Users\Robson\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2020/11/20 16:19:09.000.506,E:\Programas\Delphi\Fontes\Baixada\Clube\Recibo\Recibo.dproj=C:\Users\Robson\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020/11/20 16:20:15.000.488,=E:\Programas\Delphi\Fontes\Baixada\Clube\Recibo\uImpReciboManual.pas</Transaction>
+    <Transaction>2020/11/20 16:21:43.000.411,=E:\Programas\Delphi\Fontes\Baixada\Clube\Recibo\uReciboManual.pas</Transaction>
+    <Transaction>2020/11/20 16:22:26.000.043,E:\Programas\Delphi\Fontes\Baixada\Clube\Recibo\Unit1.pas=</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PVMCatalina iOSSimulator="iPhone5"/>
+		<NoProfile iOSSimulator="iPhone5" Android="83f035525a493334" Android64="83f035525a493334"/>
+	</ActiveMobileDevice>
+</BorlandProject>
