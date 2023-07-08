@@ -1,0 +1,28 @@
+inherited FrmClientes: TFrmClientes
+  Caption = 'Clientes'
+  DesignerMasterStyle = 3
+  inherited lytGeral: TLayout
+    inherited tbcMain: TTabControl
+      Sizes = (
+        380s
+        521s
+        380s
+        521s)
+      inherited tbiLista: TTabItem
+        ExplicitSize.cx = 190.000000000000000000
+        ExplicitSize.cy = 49.000000000000000000
+        inherited lytToolLista: TLayout
+          OnClick = nil
+        end
+        inherited vertLista: TVertScrollBox
+          Viewport.Width = 380.000000000000000000
+          Viewport.Height = 471.000000000000000000
+        end
+      end
+      inherited tbiView: TTabItem
+        ExplicitSize.cx = 190.000000000000000000
+        ExplicitSize.cy = 49.000000000000000000
+      end
+    end
+  end
+end

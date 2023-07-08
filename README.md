@@ -1,9 +1,5 @@
 ## Aplicativos Delphi
 
-```
-
-```
-
 
 
 ## Links Úteis

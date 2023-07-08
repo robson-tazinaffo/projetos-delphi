@@ -1,0 +1,20 @@
+/* TABELA DE CONTATOS */
+CREATE TABLE MOB002 ( 
+	CNT_ID integer unique not null, 
+	CNT_ID_PESSOA integer not null, 
+	CNT_NOME varchar(100) not null,  
+	CNT_CARGO varchar(30), 
+	CNT_DTNASCIMENTO TIMESTAMP, 
+	CNT_TELEFONE varchar(20), 
+	CNT_RAMAL varchar(6), 
+	CNT_CELULAR varchar(20), 
+	CNT_EMAIL varchar(100), 
+	CNT_TELEFONE2 varchar(20), 
+	CNT_CELULAR2 varchar(20),
+	CNT_EMAIL2 varchar(100),
+	CNT_RAMALFONE2 varchar(6), 
+	CNT_ATIVOINATIVO CHAR(1) DEFAULT 'A', 
+	CNT_DTALTERACAO TIMESTAMP,
+	FOREIGN KEY (CNT_ID_PESSOA) REFERENCES MOB001 (PES_ID) 	
+);
+

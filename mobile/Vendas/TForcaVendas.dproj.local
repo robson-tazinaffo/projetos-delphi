@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/06/04 14:11:01.000.289,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/06/04 18:45:35.000.206,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/06/05 16:29:52.000.637,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/06/12 17:49:46.000.960,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/06/24 21:31:49.000.992,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/07/05 10:33:12.000.125,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/07/10 11:15:05.000.948,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/08/07 10:22:20.000.202,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/08/08 10:15:25.000.426,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/08/29 14:27:17.000.177,=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/08/29 14:54:39.000.050,D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\UntMain.fmx=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2019/08/29 14:54:39.000.050,D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\UntMain.pas=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/08/29 14:54:49.000.301,D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\TForcaVendas.dproj=C:\Users\adrianosantos\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2019/09/26 22:28:42.000.316,=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.pas</Transaction>
+    <Transaction>2019/09/26 22:28:59.000.240,D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.pas=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\UntDM.pas</Transaction>
+    <Transaction>2019/09/26 22:28:59.000.240,D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.dfm=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\UntDM.dfm</Transaction>
+    <Transaction>2019/09/26 23:30:53.000.688,=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.pas</Transaction>
+    <Transaction>2019/09/26 23:31:56.000.981,D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.pas=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\UntFrameLista.pas</Transaction>
+    <Transaction>2019/09/26 23:31:56.000.981,D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.fmx=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\UntFrameLista.fmx</Transaction>
+    <Transaction>2019/09/26 23:42:56.000.557,=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.pas</Transaction>
+    <Transaction>2019/09/27 19:12:46.000.709,=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.pas</Transaction>
+    <Transaction>2019/09/27 19:21:07.000.189,D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.fmx=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\UntBaseLista.fmx</Transaction>
+    <Transaction>2019/09/27 19:21:07.000.189,D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.pas=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\UntBaseLista.pas</Transaction>
+    <Transaction>2019/09/27 20:03:48.000.194,=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.pas</Transaction>
+    <Transaction>2019/09/27 20:07:51.000.595,=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.pas</Transaction>
+    <Transaction>2019/09/27 20:08:07.000.682,D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.fmx=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\UntBaseCad.fmx</Transaction>
+    <Transaction>2019/09/27 20:08:07.000.682,D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.pas=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\UntBaseCad.pas</Transaction>
+    <Transaction>2019/09/27 20:24:44.000.313,=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.pas</Transaction>
+    <Transaction>2019/09/27 20:25:12.000.916,D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.fmx=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\UntSplash.fmx</Transaction>
+    <Transaction>2019/09/27 20:25:12.000.916,D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.pas=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\UntSplash.pas</Transaction>
+    <Transaction>2019/09/27 21:16:51.000.433,=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.pas</Transaction>
+    <Transaction>2019/09/27 21:17:06.000.335,D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.pas=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\utils\UntLib.pas</Transaction>
+    <Transaction>2019/09/27 21:37:04.000.975,=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.pas</Transaction>
+    <Transaction>2019/09/27 21:37:29.000.101,D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.fmx=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\UntClientes.fmx</Transaction>
+    <Transaction>2019/09/27 21:37:29.000.101,D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.pas=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\UntClientes.pas</Transaction>
+    <Transaction>2019/10/08 19:54:02.000.776,=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.pas</Transaction>
+    <Transaction>2019/10/08 19:54:19.000.786,D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\UntConfig.fmx=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.fmx</Transaction>
+    <Transaction>2019/10/08 19:54:19.000.786,D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\UntConfig.pas=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.pas</Transaction>
+    <Transaction>2019/10/08 21:21:27.000.712,=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\classes\UntAguarde.pas</Transaction>
+    <Transaction>2019/10/08 21:36:12.000.254,=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.pas</Transaction>
+    <Transaction>2019/10/08 21:36:26.000.252,D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.pas=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\classes\UntBackground.pas</Transaction>
+    <Transaction>2019/10/08 23:51:56.000.520,=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.pas</Transaction>
+    <Transaction>2019/10/08 23:52:19.000.542,D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.pas=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\utils\Util.Mensageria.pas</Transaction>
+    <Transaction>2019/10/09 00:16:14.000.570,=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\FMX.Consts.pas</Transaction>
+    <Transaction>2019/10/09 00:25:31.000.319,=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.pas</Transaction>
+    <Transaction>2019/10/09 00:25:44.000.902,D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.pas=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Contantes.pas</Transaction>
+    <Transaction>2019/10/09 00:27:57.000.423,D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Contantes.pas=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Constantes.pas</Transaction>
+    <Transaction>2019/10/09 00:41:57.000.747,=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.pas</Transaction>
+    <Transaction>2019/10/09 00:42:28.000.581,D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Unit1.pas=D:\#01. Repositórios de Cursos\Turbo Mobile Vendas\Módulo TDevRocks\Constantes.SVG.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="AVD_for_5_1_WVGA" iOSSimulator="iPhone5"/>
+		<PMac iOSDevice64="_iosdevice_a8afd41eb95798e43f32a1ea975cfc270de4314c" iOSSimulator="iPhone5"/>
+		<PMacAula3 iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

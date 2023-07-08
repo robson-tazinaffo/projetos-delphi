@@ -1,0 +1,120 @@
+object frameBase: TframeBase
+  Size.Width = 380.000000000000000000
+  Size.Height = 88.000000000000000000
+  Size.PlatformDefault = False
+  object recBack: TRectangle
+    Align = Client
+    Size.Width = 380.000000000000000000
+    Size.Height = 88.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object rectFrmList: TRectangle
+    Align = Client
+    Fill.Color = claWhite
+    Margins.Left = 4.000000000000000000
+    Margins.Top = 2.000000000000000000
+    Margins.Right = 4.000000000000000000
+    Margins.Bottom = 2.000000000000000000
+    Size.Width = 372.000000000000000000
+    Size.Height = 84.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object lytAccessory: TLayout
+      Align = Right
+      Margins.Right = 4.000000000000000000
+      Position.X = 343.000000000000000000
+      Size.Width = 25.000000000000000000
+      Size.Height = 84.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object pthBtnAccess: TPath
+        Align = Center
+        Data.Path = {
+          0800000000000000A4700941D7A384410100000052B852410000404101000000
+          A4700941B81EED4001000000000020410000C040010000000000804100004041
+          01000000000020410000904101000000A4700941D7A3844103000000A4700941
+          D7A38441}
+        Fill.Color = xFF049A04
+        Size.Width = 12.000000000000000000
+        Size.Height = 20.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object speAccess: TSpeedButton
+        Align = Center
+        Size.Width = 12.000000000000000000
+        Size.Height = 20.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object lytFrmList: TLayout
+      Align = Client
+      Size.Width = 343.000000000000000000
+      Size.Height = 84.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object lblTitulo: TLabel
+        Align = Top
+        StyledSettings = [Family, Style]
+        Margins.Left = 8.000000000000000000
+        Margins.Top = 4.000000000000000000
+        Margins.Right = 4.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 4.000000000000000000
+        Size.Width = 331.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claGray
+        Text = 'lblTitulo'
+        TabOrder = 0
+      end
+      object lblSubDetail1: TLabel
+        Align = Top
+        StyledSettings = [Family, Size, Style]
+        Margins.Left = 8.000000000000000000
+        Margins.Top = 2.000000000000000000
+        Margins.Right = 4.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 23.000000000000000000
+        Size.Width = 331.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.FontColor = claGray
+        Text = 'lblSubDetail1'
+        TabOrder = 1
+      end
+      object lblSubDetail2: TLabel
+        Align = Top
+        StyledSettings = [Family, Size, Style]
+        Margins.Left = 8.000000000000000000
+        Margins.Top = 2.000000000000000000
+        Margins.Right = 4.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 42.000000000000000000
+        Size.Width = 331.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.FontColor = claGray
+        Text = 'lblSubDetail2'
+        TabOrder = 2
+      end
+      object lblSubDetail3: TLabel
+        Align = Top
+        StyledSettings = [Family, Size, Style]
+        Margins.Left = 8.000000000000000000
+        Margins.Top = 2.000000000000000000
+        Margins.Right = 4.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 61.000000000000000000
+        Size.Width = 331.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.FontColor = claGray
+        Text = 'lblSubDetail3'
+        TabOrder = 3
+      end
+    end
+  end
+end

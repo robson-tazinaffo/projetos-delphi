@@ -1,0 +1,111 @@
+inherited FrmConfig: TFrmConfig
+  Caption = 'FrmBaseCad1'
+  OnCreate = FormCreate
+  OnClose = FormClose
+  DesignerMasterStyle = 3
+  inherited lytGeral: TLayout
+    inherited lytToolCad: TLayout
+      inherited lblTitCad: TLabel
+        Text = 'Configura'#231#245'es'
+      end
+      inherited lytBtnVoltar: TLayout
+        inherited speBtnVoltar: TSpeedButton
+          OnClick = speBtnVoltarClick
+        end
+      end
+    end
+    inherited vertCadastro: TVertScrollBox
+      Viewport.Width = 380.000000000000000000
+      Viewport.Height = 520.000000000000000000
+      inherited lytBtnAux: TLayout
+        inherited recBtnAux: TRectangle
+          inherited lblBtnAux: TLabel
+            Text = 'Salvar'
+          end
+        end
+        inherited speBtnAux: TSpeedButton
+          OnClick = speBtnAuxClick
+        end
+      end
+      object lblPorta: TLabel
+        Align = Top
+        StyledSettings = [Family, Size, Style]
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 75.000000000000000000
+        Size.Width = 340.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.FontColor = claGray
+        Text = 'Porta'
+        TabOrder = 3
+      end
+      object edtServidor: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 5
+        KeyboardType = Alphabet
+        ReturnKeyType = Next
+        Position.X = 20.000000000000000000
+        Position.Y = 33.000000000000000000
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Size.Width = 340.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        KillFocusByReturn = True
+        object btnLimparServer: TClearEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Size.Width = 32.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          OnClick = btnLimparServerClick
+        end
+      end
+      object lblTitServidor: TLabel
+        Align = Top
+        StyledSettings = [Family, Size, Style]
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 10.000000000000000000
+        Size.Width = 340.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.FontColor = claGray
+        Text = 'Servidor'
+        TabOrder = 2
+      end
+      object edtPorta: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 6
+        KeyboardType = NumberPad
+        ReturnKeyType = Done
+        FilterChar = '1234567890'
+        Position.X = 20.000000000000000000
+        Position.Y = 98.000000000000000000
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Size.Width = 340.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        KillFocusByReturn = True
+        object btnLimparPorta: TClearEditButton
+          CanFocus = False
+          Cursor = crArrow
+          Size.Width = 32.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          OnClick = btnLimparPortaClick
+        end
+      end
+    end
+  end
+end

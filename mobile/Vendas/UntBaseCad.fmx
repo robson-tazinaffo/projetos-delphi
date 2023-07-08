@@ -1,0 +1,130 @@
+object FrmBaseCad: TFrmBaseCad
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 570
+  ClientWidth = 380
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 3
+  object lytGeral: TLayout
+    Align = Client
+    Size.Width = 380.000000000000000000
+    Size.Height = 570.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object recBack: TRectangle
+      Align = Contents
+      Fill.Color = claWhite
+      Size.Width = 380.000000000000000000
+      Size.Height = 570.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+    object lytToolCad: TLayout
+      Align = Top
+      Size.Width = 380.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object recToolCad: TRectangle
+        Align = Contents
+        Fill.Color = xFF049A04
+        Size.Width = 380.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+      end
+      object lblTitCad: TLabel
+        Align = Contents
+        StyledSettings = [Family, Size, Style]
+        Size.Width = 380.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.FontColor = claWhite
+        TextSettings.HorzAlign = Center
+        Text = 'T'#237'tulo'
+        TabOrder = 2
+      end
+      object lytBtnVoltar: TLayout
+        Align = Left
+        Margins.Left = 8.000000000000000000
+        Position.X = 8.000000000000000000
+        TabOrder = 1
+        object pthBtnVoltar: TPath
+          Align = Center
+          Data.Path = {
+            08000000000000005C8F7641D7A3844101000000AE472D410000404101000000
+            5C8F7641B81EED4001000000000060410000C040010000000000004100004041
+            010000000000604100009041010000005C8F7641D7A38441030000005C8F7641
+            D7A38441}
+          Fill.Color = claWhite
+          Size.Width = 20.000000000000000000
+          Size.Height = 20.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          WrapMode = Fit
+        end
+        object speBtnVoltar: TSpeedButton
+          Align = Client
+          Size.Width = 50.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+    end
+    object vertCadastro: TVertScrollBox
+      Align = Client
+      Size.Width = 380.000000000000000000
+      Size.Height = 520.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Viewport.Width = 380.000000000000000000
+      Viewport.Height = 520.000000000000000000
+      object lytBtnAux: TLayout
+        Align = Bottom
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Margins.Bottom = 20.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 450.000000000000000000
+        Size.Width = 340.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object recBtnAux: TRectangle
+          Align = Center
+          ClipChildren = True
+          Fill.Color = xFF049A04
+          Margins.Left = 20.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 20.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Size.Width = 341.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          XRadius = 25.000000000000000000
+          YRadius = 25.000000000000000000
+          object lblBtnAux: TLabel
+            Align = Center
+            StyledSettings = [Family, Size, Style]
+            TextSettings.FontColor = claWhite
+            TextSettings.HorzAlign = Center
+            Text = 'Cadastrar'
+            TabOrder = 0
+          end
+        end
+        object speBtnAux: TSpeedButton
+          Align = Client
+          Size.Width = 340.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+    end
+  end
+end
