@@ -7,7 +7,7 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, RLReport, FireDAC.Stan.Intf,
   FireDAC.Stan.Option, FireDAC.Stan.Param, FireDAC.Stan.Error, FireDAC.DatS,
   FireDAC.Phys.Intf, FireDAC.DApt.Intf, FireDAC.Comp.DataSet,
-  FireDAC.Comp.Client, JvComponentBase, JvEnterTab, System.Actions, Vcl.ActnList,
+  FireDAC.Comp.Client, System.Actions, Vcl.ActnList,
   Vcl.ExtCtrls;
 
 type

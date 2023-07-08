@@ -5,7 +5,7 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, System.Actions, Vcl.ActnList,
-  JvComponentBase, JvEnterTab, Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.Mask, RxToolEdit,
+  Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.Mask, RxToolEdit,
   RxCurrEdit, FireDAC.Stan.Intf, FireDAC.Stan.Option, FireDAC.Stan.Param,
   FireDAC.Stan.Error, FireDAC.DatS, FireDAC.Phys.Intf, FireDAC.DApt.Intf,
   Data.DB, FireDAC.Comp.DataSet, FireDAC.Comp.Client, Vcl.Buttons;
@@ -14,7 +14,6 @@ type
   TF_ReciboManual = class(TForm)
     ActionList1: TActionList;
     actSair: TAction;
-    JvEnterAsTab1: TJvEnterAsTab;
     Label1: TLabel;
     Shape1: TShape;
     Shape2: TShape;
@@ -53,7 +52,6 @@ type
     Shape18: TShape;
     Shape19: TShape;
     edtNumero: TCurrencyEdit;
-    edtValor: TCurrencyEdit;
     edtBeneficiario: TEdit;
     edtEndereco: TEdit;
     edtImportancia: TEdit;
@@ -84,6 +82,7 @@ type
     FDImprimeFIRMO: TStringField;
     edtDia: TEdit;
     edtAno: TEdit;
+    edtValor: TEdit;
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure actSairExecute(Sender: TObject);
     procedure FormCreate(Sender: TObject);
@@ -92,7 +91,11 @@ type
     procedure FormShow(Sender: TObject);
     procedure edtValorExit(Sender: TObject);
     procedure edtValorEnter(Sender: TObject);
+    procedure edtValorKeyUp(Sender: TObject; var Key: Word; Shift: TShiftState);
+    procedure edValorTotalEnter(Sender: TObject);
+    procedure edValorTotalExit(Sender: TObject);
   private
+    procedure FormataValor(Sender: TObject);
     { Private declarations }
   public
     { Public declarations }
@@ -113,6 +116,83 @@ begin
 
 end;
 
+procedure TF_ReciboManual.FormataValor(Sender: TObject);
+var
+    valor: double;
+begin
+   valor := StrToCurr((Sender as TEdit).Text);
+
+  (Sender as TEdit).Text := FormatFloat(',0.00', valor)
+
+end;
+
+
+procedure TF_ReciboManual.edValorTotalEnter(Sender: TObject);
+begin
+    edtImportancia.Text := '';
+
+end;
+
+procedure TF_ReciboManual.edValorTotalExit(Sender: TObject);
+begin
+    if StrToFloatDef(edtValor.Text,0) > 0 then begin
+        edtImportancia.Text := UpperCase(Extensializa(StrToFloatDef(edtValor.Text,0)));
+    end;
+
+end;
+
+procedure TF_ReciboManual.edtValorKeyUp(Sender: TObject; var Key: Word;
+  Shift: TShiftState);
+var  s: String;
+
+begin
+  if (Key in [96..107]) or (Key in [48..57]) then
+     begin
+      S := edtValor.Text;
+      S := StringReplace(S,',','',[rfReplaceAll]);
+      S := StringReplace(S,'.','',[rfReplaceAll]);
+      if Length(s) = 3 then
+        begin
+          s := Copy(s,1,1)+','+Copy(S,2,15);
+          edtValor.Text := S;
+          edtValor.SelStart := Length(S);
+        end
+      else
+        if (Length(s) > 3) and (Length(s) < 6) then
+          begin
+            s := Copy(s,1,length(s)-2)+','+Copy(S,length(s)-1,15);
+            edtValor.Text := s;
+            edtValor.SelStart := Length(S);
+          end
+        else
+          if (Length(s) >= 6) and (Length(s) < 9) then
+            begin
+              s := Copy(s,1,length(s)-5)+'.'+Copy(s,length(s)-4,3)+','+Copy(S,length(s)-1,15);
+              edtValor.Text := s;
+              edtValor.SelStart := Length(S);
+            end
+          else
+            if (Length(s) >= 9) and (Length(s) < 12) then
+              begin
+                s := Copy(s,1,length(s)-8)+'.'+Copy(s,length(s)-7,3)+'.'+
+                       Copy(s,length(s)-4,3)+','+Copy(S,length(s)-1,15);
+                edtValor.Text := s;
+                edtValor.SelStart := Length(S);
+              end
+            else
+              if (Length(s) >= 12) and (Length(s) < 15)  then
+                begin
+                  s := Copy(s,1,length(s)-11)+'.'+Copy(s,length(s)-10,3)+'.'+
+                          Copy(s,length(s)-7,3)+'.'+Copy(s,length(s)-4,3)+','+Copy(S,length(s)-1,15);
+                  edtValor.Text := s;
+                  edtValor.SelStart := Length(S);
+                end;
+      end;
+
+//  FormataValor(Sender);
+
+end;
+
 procedure TF_ReciboManual.edtValorEnter(Sender: TObject);
 begin
     edtImportancia.Text := '';
@@ -121,8 +201,8 @@ end;
 
 procedure TF_ReciboManual.edtValorExit(Sender: TObject);
 begin
-    if edtValor.Value > 0 then begin
-        edtImportancia.Text := UpperCase(Extensializa(edtValor.Value));
+    if StrToFloatDef(edtValor.Text,0) > 0 then begin
+        edtImportancia.Text := UpperCase(Extensializa(StrToFloatDef(edtValor.Text,0)));
     end;
 end;
 
@@ -168,7 +248,7 @@ begin
 
     FDImprime.Append;
     FDImprimeNumero.Value        := edtNumero.AsInteger;
-    FDImprimeValor.Value         := edtValor.Value;
+    FDImprimeValor.Value         := StrToFloatDef(edtValor.Text,0);
     FDImprimeBENEFICIARIO.Value  := Trim(edtBeneficiario.Text);
     FDImprimeENDERECO.Value      := Trim(edtEndereco.Text);
     FDImprimeIMPORTANCIA.Value   := Trim(edtImportancia.Text);

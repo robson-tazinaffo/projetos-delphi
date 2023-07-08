@@ -373,24 +373,6 @@ object F_ReciboManual: TF_ReciboManual
     ParentFont = False
     TabOrder = 0
   end
-  object edtValor: TCurrencyEdit
-    Left = 648
-    Top = 15
-    Width = 155
-    Height = 30
-    AutoSize = False
-    BorderStyle = bsNone
-    DisplayFormat = ',0.00'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -21
-    Font.Name = 'Tahoma'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 1
-    OnEnter = edtValorEnter
-    OnExit = edtValorExit
-  end
   object edtBeneficiario: TEdit
     Left = 150
     Top = 75
@@ -629,6 +611,27 @@ object F_ReciboManual: TF_ReciboManual
     ParentFont = False
     TabOrder = 11
   end
+  object edtValor: TEdit
+    Left = 647
+    Top = 12
+    Width = 150
+    Height = 33
+    Alignment = taRightJustify
+    BevelInner = bvNone
+    BevelOuter = bvNone
+    BorderStyle = bsNone
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    Text = '0,00'
+    OnEnter = edValorTotalEnter
+    OnExit = edValorTotalExit
+    OnKeyUp = edtValorKeyUp
+  end
   object ActionList1: TActionList
     Left = 520
     Top = 145
@@ -637,11 +640,6 @@ object F_ReciboManual: TF_ReciboManual
       ShortCut = 27
       OnExecute = actSairExecute
     end
-  end
-  object JvEnterAsTab1: TJvEnterAsTab
-    AllowDefault = False
-    Left = 512
-    Top = 50
   end
   object ActionList2: TActionList
     Left = 712
