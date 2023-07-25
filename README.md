@@ -19,10 +19,22 @@
 <img align="center" alt="Firebird" height="70" width="80" src="https://firebirdsql.org/file/about/firebird-logo-48.png" /> 
 
 
-
 ## Aplicativos
 
-- **1 - Agendador de backups de banco de dados Firebird SQL**
+
+
+**Desktop**
+
+- **1 - Agendador de backups de banco de dados Firebird SQL.**
+- **2 - Aplicativo de migração de banco de dados**
+- **3 - Recibo estilo duplicata**
+- **4 - Exemplo de CRUD MVC e POO em Delphi com banco Firebird**
+
+
+
+**Mobile**
+
 - **2 - Games feitos em delphi**
+- 
 
 ![](C:\Projetos\delphi\projetos-delphi\images\readme.png)
